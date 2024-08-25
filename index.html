@@ -6,15 +6,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
     <title>Portifólio</title>
+    <link id="ico" rel="icon" href="assets/codigo.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
-    <link rel="ico" href="./assets/icone.png" type="image/x-icon">
 </head>
 <body>
     <nav>
         <a href="#home"><img class="home" src="./assets/icons8-home-24.png" alt=""></a>
         <a href="#sobre"><li>Sobre mim</li></a>
-        <a href="#projetos"><li>Principais projetos</li></a>
+        <a href="#projeto-nike"><li>Principais projetos</li></a>
         <a href="#Contato"><li>Contato</li></a>
     </nav>
     <main id="home">
@@ -25,29 +28,48 @@
         <div class="conteiner-img">
         </div>
     </main>
-    <section id="sobre">
-       <div class="content-section">
-        <h2>
-            Sobre
-        </h2>
-        <p>
-            Eu nasci em 2008 e, desde pequeno, sou fascinado pela ideia de programar algo e criar. Atualmente, estou fazendo alguns cursos técnicos em análise e desenvolvimento de sistemas. Pretendo cursar uma faculdade focada nessa área. As áreas que mais me interessam são gestão de banco de dados, desenvolvimento web, backend e frontend e desenvolvimento de jogos. Eu também gostaria de estudar UI e UX, mas não é o meu foco principal.
-        </p>
-       </div>
-    </section>
-    <section id="projetos">
+    <section id="projeto-nike">
         <div class="content">
             <h2 id="h2section">Clone do site da Nike</h2>
-            <p>Esse é um dos projetos que mais me dediquei a fazer. Foi realizado durante o recesso escolar, foi desenvolvido para aprimorar minhas tecnicas no frontend, porém continuarei trabalhando nele e adicionar mais recursos como banco de dados, usuários, etc...</p>
+            <p>Esse é um dos projetos que mais me dediquei a fazer. Foi realizado durante o recesso escolar, foi desenvolvido para aprimorar minhas tecnicas no frontend, porém continuarei trabalhando nele e adicionar mais recursos como banco de dados, usuários, etc... acesse esse projeto clicando <a href="https://i-gor0.github.io/Website-nike/HomeDefault.html">aqui</a></p>
             <p>Caso queira ver meus projetos menores, estão disponíveis no meus github, como calendários, fotoblog entre outros</p>
         </div>
         <video controls src="./assets/2024-08-24 23-25-22.mkv"></video>
     </section>
+    <section id="projeto-mar">
+        <div class="content">
+            <h2 id="h2section">Foto blog-frutos do mar</h2>
+            <p>Esse projeto foi um dos meus primeiros projetos em sala de aula, foi um projeto que ficou entre os 3 melhores da sala dde aula, o tema do projeto foi completamente aleatório. não é possível acessa-lo, pois eu não hospedei ele em nem um domínio, mas o código está disponível no meu github</p>
+        </div>
+        <video controls src="./assets/frutos do mar.mp4"></video>
+    </section>
+    <section id="projeto-nlw">
+        <div class="content">
+            <h2 id="h2section">Meu primeiro projeto</h2>
+            <p>Esse foi de fato o meu primeiro projeto, foi desenvolvido com o intuíto de saber editar projetos de outras pessoas e criar algo com a sua própria eslitização. O código fonte do projeto foi disponibilizado pelo professor, o objetivo era mudar os canais que aparecia para os canais que assisto, mudar a paleta de coras, entre outras estilizações, também não é possível acessa-lo, mas o código também está disponível no github</p>
+        </div>
+        <img id="img-projeto1" src="./assets/preview.png" alt="">
+    </section>
+    <section id="sobre">
+        <div class="content-section">
+         <h2>
+             Sobre
+         </h2>
+         <p>
+             Eu nasci em 2008 e, desde pequeno, sou fascinado pela ideia de programar algo e criar. Atualmente, estou fazendo alguns cursos técnicos em análise e desenvolvimento de sistemas. Pretendo cursar uma faculdade focada nessa área. As áreas que mais me interessam são gestão de banco de dados, desenvolvimento web, backend e frontend e desenvolvimento de jogos. Eu também gostaria de estudar UI e UX, mas não é o meu foco principal.
+         </p>
+        </div>
+     </section>
     <section id="Contato">
         <div class="content-section">
             <h2>Me encontre em:</h2>
-        <a href="https://www.instagram.com/igor.antt/" target="_blank"><img src="./assets/instagram-svgrepo-com.svg" alt=""></a>
+        <a href="https://www.instagram.com/igor.antt/" target="_blank">
+            <img id="instalogo" class="section_img" src="./assets/instagram-svgrepo-com.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/igor-antunes-aab13a30a/" target="_blank">
+                <img id="linlogo" class="section_img" src="./assets/icons8-linkedin.svg"">
+            </a>
         </div>
     </section>
+    <script src="./script.js"></script>
 </body>
 </html>

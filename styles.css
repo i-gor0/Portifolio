@@ -18,6 +18,7 @@ nav{
 }
 
 li{
+    font-family: "New Amsterdam", sans-serif;
     color: white;
     list-style: none;
     margin-left: 20px;
@@ -44,7 +45,7 @@ main{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 760px;
+    height: 1000px;
     background-size: contain;
     background-image: url(./assets/wp11796400.webp);
 }
@@ -57,6 +58,16 @@ section{
     background-color: rgb(0, 0, 0);
 
 }
+#projeto-nike{
+    background-size: fill;
+    background-image: url(./assets/nikegif.gif);
+}
+#projeto-mar{
+    background-color: rgb(0, 6, 32);
+}
+#projeto-nlw{
+    background-color: rgb(24, 0, 0);
+}
 .content-section{
     text-align: center;
     width: 450px;
@@ -67,8 +78,26 @@ section{
     margin-right: 200px;
     margin-left: -70px;
 }
+.section_img{
+    transition: 300ms all;
+    height: 100px;
+    border-radius: 30px;
+}
+.section_img:hover{
+    transform: scale(1.1);
+}
+#instalogo:hover{
+    box-shadow: 0 0px 10px rgb(255, 255, 255)
+}
 #h2section{
     animation: brilho alternate 1s infinite;
+    font-family: "New Amsterdam", sans-serif;
+    letter-spacing: 3px;
+}
+#img-projeto1{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
 }
 video{
     width: 100%;
@@ -82,7 +111,7 @@ video{
     border-radius: 10px;
     background-image: url(./assets/Foto\ de\ perfil.jpeg);
     background-size: cover;
-    box-shadow: 5px 0px 15px rgb(255, 0, 0);
+    box-shadow: 10px 10px 15px rgb(56, 4, 4);
 }
 .home{
     height: 40px;
