@@ -6,6 +6,7 @@
     <title>Igor Antunes - Portifólio</title>
     <link rel="shortcut icon" href="Assets/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -19,14 +20,14 @@
       </nav>
     </header>
     <section id="home">
-      <h1>Welcome to Igor's Portfolio</h1>
-      <h2>This is a brief introduction to my work and projects.</h2>
+      <h1 data-aos="fade-down-right" >Welcome to Igor's Portfolio</h1>
+      <h2 data-aos="fade-right">This is a brief introduction to my work and projects.</h2>
     </section>
-    <hr />
+    <hr /> 
     <section id="about">
       <div class="container">
-        <h2>About Me</h2>
-        <p>
+        <h2 data-aos="zoom-out">About Me</h2>
+        <p data-aos="fade-right">
           Olá! Me chamo Igor Antunes, sou estudante de Análise e Desenvolvimento
           de Sistemas e desenvolvedor Full Stack em constante evolução. Tenho
           interesse genuíno por soluções tecnológicas que unam funcionalidade,
@@ -46,15 +47,15 @@
           e impacto real.
         </p>
       </div>
-      <img src="https://via.placeholder.com/150" alt="Imagem de Igor Antunes" />
+      <img data-aos="fade-left" src="https://via.placeholder.com/150" alt="Imagem de Igor Antunes" />
     </section>
     <section id="projects">
-      <h2>My Projects</h2>
+      <h2 data-aos="zoom-out">My Projects</h2>
       <ul>
         <li>
           <div class="container">
-            <h3>Projeto Front-end: Portfólio de Artista</h3>
-            <p>
+            <h3 data-aos="fade-right">Projeto Front-end: Portfólio de Artista</h3>
+            <p data-aos="fade">
               Desenvolvi um site responsivo e otimizado para um artista
               freelancer, com o objetivo de divulgar suas comissões de arte de
               forma clara, atrativa e profissional. O projeto foi pensado para
@@ -62,37 +63,31 @@
               preços e estilos de encomenda, além de possibilitar um canal
               direto de contato com potenciais clientes.
             </p>
-            <p>
-              <strong>Tecnologias utilizadas:</strong> HTML, CSS, JavaScript
-              (vanilla ou com framework, se usou algo como React), hospedagem
+            <p data-aos="fade">
+              <strong>Tecnologias utilizadas:</strong> HTML, CSS, JavaScript, hospedagem
               via GitHub Pages
             </p>
-            <p>
+            <p data-aos="fade">
               Clique
-              <a
-                href="https://i-gor0.github.io/Portifolio_Rixky/"
-                target="_blank"
-                >aqui</a
-              >
+              <a href="https://i-gor0.github.io/Portifolio_Rixky/" target="_blank">aqui</a>
               ou na imagem para ver o projeto.
             </p>
           </div>
-
           <a href="https://i-gor0.github.io/Portifolio_Rixky/" target="_blank">
-            <img src="Assets/Captura de tela 2025-07-02 145036.png" alt="" />
+            <img data-aos="fade-in" src="Assets/Captura de tela 2025-07-02 145036.png" alt="" />
           </a>
         </li>
 
         <li>
           <div class="container">
-            <h3>Projeto Back-end: em breve</h3>
-            <p>
+            <h3 data-aos="fade-right">Projeto Back-end: em breve</h3>
+            <p data-aos="fade">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
               fuga, corrupti, vel eaque impedit nemo expedita totam quam
               obcaecati quaerat quasi provident maxime asperiores. Expedita
               accusamus quas eos dolorum libero.
             </p>
-            <p>
+            <p data-aos="fade">
               <strong>Tecnologias utilizadas:</strong> Java, Spring Boot, MySQL,
               JPA, Hibernate
             </p>
@@ -101,8 +96,8 @@
 
         <li>
           <div class="container">
-            <h3>Projeto Full Stack: Monitoramento de Lixeiras Inteligentes</h3>
-            <p>
+            <h3 data-aos="fade-right">Projeto Full Stack: Monitoramento de Lixeiras Inteligentes</h3>
+            <p data-aos="fade">
               Este foi o maior e mais desafiador projeto que desenvolvi até o
               momento — meu Trabalho de Conclusão de Curso, desenvolvido em
               equipe, com o objetivo de criar uma solução web para monitoramento
@@ -120,7 +115,7 @@
               direta com o time de front e domínio dos fluxos de dados entre as
               camadas da aplicação.
             </p>
-            <p>
+            <p data-aos="fade">
               <strong>Tecnologias utilizadas:</strong>
 
               <br />
@@ -147,8 +142,8 @@
       </ul>
     </section>
     <section id="contact">
-      <h2>Contact Me</h2>
-      <p>
+      <h2 data-aos="zoom-out">Contact Me</h2>
+      <p data-aos="fade-right">
         Fale comigo pelo instagram
         <a href="https://www.instagram.com/igor.antt/" target="_blank"
           >@igor.antt</a
@@ -159,10 +154,17 @@
             <a href="mailto:igor.antuness28h@gmail.com">igor.antuness28h@gmail.com</a>
         <br />
       </p>
-      <p>
+      <p data-aos="fade-left">
         Caso queira encontrar mais projetos meus que não foram mencionados, acesse meu
         <a href="https://github.com/i-gor0" target="_blank">GitHub</a>
       </p>
     </section>
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000
+  });
+</script>
+
 </html>

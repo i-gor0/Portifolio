@@ -37,6 +37,7 @@ header {
   align-items: center;
   display: flex;
   box-shadow: var(--details-color) 0px 2px 0px;
+  z-index: 1000;
 }
 .nav-links {
   font-family: "Inter";
@@ -54,6 +55,9 @@ a {
 }
 a:hover {
   color: var(--primary-color);
+  text-shadow: 0 0 10px var(--details-color), 0 0 20px var(--details-color),
+    0 0 30px var(--details-color);
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
 }
 p {
   font-family: "Inter";
@@ -98,7 +102,48 @@ hr {
   border: 2px solid var(--details-color);
   box-shadow: var(--details-color) 10px 10px 10px;
   margin: 20px auto;
+  animation: brilho 3s ease-in-out infinite alternate,
+    show 0.8s ease forwards;
 }
+@keyframes show {
+  0% {
+    width: 0%;
+    border: var(--details-color) 2px solid;
+  }
+  100% {
+    border: var(--details-color) 2px solid;
+    width: 80%;
+  }
+}
+@keyframes brilho {
+  0% {
+    box-shadow:
+      0 0 10px var(--details-color),
+      0 0 20px var(--details-color),
+      0 0 30px var(--details-color),
+      0 0 40px var(--details-color);
+    filter: brightness(1);
+  }
+
+  50% {
+    box-shadow:
+      0 0 20px var(--details-color),
+      0 0 40px var(--details-color),
+      0 0 60px var(--details-color),
+      0 0 80px var(--details-color);
+    filter: brightness(1.5);
+  }
+
+  100% {
+    box-shadow:
+      0 0 10px var(--details-color),
+      0 0 20px var(--details-color),
+      0 0 30px var(--details-color),
+      0 0 40px var(--details-color);
+    filter: brightness(1);
+  }
+}
+
 .container {
   display: flex;
   justify-content: center;
