@@ -1,83 +1,76 @@
-#🚧Portfólio — Em Construção
+# 🚧 Portfólio — Em Desenvolvimento
 
-Este projeto está em desenvolvimento ativo.
-Estou construindo algo que represente não só o que eu sei hoje, mas principalmente o nível que eu estou buscando alcançar.
+> Projeto em desenvolvimento ativo.  
+> Este portfólio está sendo construído para representar minha evolução como desenvolvedor e minha visão sobre tecnologia.
 
-##🎯Objetivo
+---
 
-Este portfólio tem como propósito:
+## 🎯 Objetivo
 
-Centralizar meus projetos e experimentos
+Este projeto tem como finalidade:
 
-Documentar minha evolução como desenvolvedor
+- Centralizar meus projetos
+- Documentar minha evolução técnica
+- Demonstrar habilidades em desenvolvimento e resolução de problemas
+- Criar uma presença profissional sólida
 
-Demonstrar minhas habilidades técnicas e analíticas
+Mais do que expor código, a proposta é evidenciar raciocínio, organização e capacidade de construção de soluções.
 
-Servir como base para oportunidades futuras
+---
 
-A ideia não é só mostrar código.
-É mostrar pensamento.
+## 🧠 Sobre o Projeto
 
-##🧠Sobre o Projeto
+O portfólio está sendo desenvolvido com foco em:
 
-Este portfólio está sendo desenvolvido com foco em:
+- Estrutura limpa e organizada  
+- Boas práticas de desenvolvimento  
+- Código escalável  
+- Experiência do usuário intuitiva  
+- Design minimalista  
 
-Design limpo e minimalista
+---
 
-Performance e boas práticas
+## 🛠️ Tecnologias
 
-Código organizado e escalável
+*(Atualize conforme for implementando)*
 
-Experiência do usuário bem pensada
+- HTML5  
+- CSS3  
+- JavaScript  
+- React / Next.js  
+- Git & GitHub  
 
-Nada de fazer só pra “ter um portfólio”.
-A meta é criar algo que realmente represente minha capacidade.
+---
 
-##🛠️Tecnologias (previstas)
+## 📌 Funcionalidades Planejadas
 
-(Atualize conforme for implementando)
+- [ ] Página inicial com apresentação
+- [ ] Seção de projetos com descrição técnica
+- [ ] Links para repositórios
+- [ ] Página "Sobre mim"
+- [ ] Seção de contato
+- [ ] Deploy público
 
-HTML5
+---
 
-CSS3 / Tailwind / Styled Components
+## 📈 Roadmap
 
-JavaScript / TypeScript
+- [ ] Estrutura base do layout
+- [ ] Implementação da responsividade
+- [ ] Organização dos componentes
+- [ ] Otimização de performance
+- [ ] Publicação da aplicação
 
-React / Next.js
+---
 
-Git & GitHub
+## 🚀 Status
 
-##📌Funcionalidades Planejadas
+Em desenvolvimento contínuo.
 
- Página inicial com apresentação pessoal
+Atualizações frequentes serão realizadas conforme o progresso do projeto.
 
- Seção de projetos com descrição técnica
+---
 
- Links para repositórios no GitHub
+## 📄 Licença
 
- Seção sobre mim
-
- Contato
-
- Deploy público
-
-##📈Roadmap
-
-Estrutura base do layout
-
-Responsividade
-
-Integração com API (futuramente)
-
-Otimização de performance
-
-Deploy final
-
-##🚀Status Atual
-
-Construindo a base.
-Evoluindo a cada commit.
-
-##🤝Contribuição
-
-Este é um projeto pessoal, mas sugestões e feedbacks são sempre bem-vindos.
+Este projeto é de uso pessoal.
